@@ -25,7 +25,8 @@ This command calls the external ."
 
 (global-set-key "\C-cd" 'print-perl-debug)
 
-(push "/usr/local/bin" exec-path)
+(push "/usr/local/bin" exec-path) 
+(push "/Users/shawnpage/bin" exec-path) 
 
 ; give emacs access to git
 (push "/usr/local/git/bin" exec-path)
