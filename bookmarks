@@ -1,0 +1,10 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("student_takes_controller_spec.rb"
+ (filename . "~/keystone/spec/controllers/mindtap/student_takes_controller_spec.rb")
+ (front-context-string . "      Fabricate(")
+ (rear-context-string . "alid params\" do\n")
+ (position . 4274))
+)
