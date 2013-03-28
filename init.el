@@ -33,6 +33,7 @@ This command calls the external ."
 
 (push "/usr/local/bin" exec-path)
 (push "/Users/bspage/bin" exec-path)
+(push "/Users/shawnpage/bin" exec-path) 
 
 (column-number-mode t)
 
