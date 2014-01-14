@@ -55,16 +55,27 @@
 
 ;; (global-set-key "\C-cd" 'print-perl-debug)
 
-(defun print-coffee-debug (startPos endPos)
+;; (defun print-coffee-debug (startPos endPos)
+;;     "Do some text processing on region.
+;; This command calls the external ."
+;;     (interactive "r")
+;;       (let (scriptName)
+;;             (setq scriptName "/Users/bspage/bin/print_coffee_debug") ; full path to your script
+;;                 (shell-command-on-region startPos endPos scriptName nil t nil t)
+;;                     ))
+
+;; (global-set-key "\C-cd" 'print-coffee-debug)
+
+(defun print-js-debug (startPos endPos)
     "Do some text processing on region.
 This command calls the external ."
     (interactive "r")
       (let (scriptName)
-            (setq scriptName "/Users/bspage/bin/print_coffee_debug") ; full path to your script
+            (setq scriptName "/Users/bspage/bin/print_js_debug") ; full path to your script
                 (shell-command-on-region startPos endPos scriptName nil t nil t)
                     ))
 
-(global-set-key "\C-cd" 'print-coffee-debug)
+(global-set-key "\C-cd" 'print-js-debug)
 
 (column-number-mode t)
 
@@ -272,12 +283,13 @@ This command calls the external ."
       (define-key term-raw-map (kbd "C-y") 'term-paste)))
 
 ;; coffeescript
-(defun coffee-custom ()
-  "coffee-mode-hook"
- (set (make-local-variable 'tab-width) 2))
+;; (defun coffee-custom ()
+;;   "coffee-mode-hook"
+;;  (set (make-local-variable 'tab-width) 2))
 
-(add-hook 'coffee-mode-hook
-  '(lambda() (coffee-custom)))
+;; (add-hook 'coffee-mode-hook
+;;   '(lambda() (coffee-custom)))
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
