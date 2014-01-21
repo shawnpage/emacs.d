@@ -87,8 +87,8 @@ This command calls the external ."
 (ido-mode t)
 
 ;; Rinari
-(add-to-list 'load-path "~/.emacs.d/elpa/rinari-2.9")
-(require 'rinari)
+;; (add-to-list 'load-path "~/.emacs.d/elpa/rinari-2.9")
+;; (require 'rinari)
 
 ;; Update ctags
 (setq rinari-tags-file-name "~/keystone/TAGS")
