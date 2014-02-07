@@ -91,7 +91,7 @@ This command calls the external ."
 ;; (require 'rinari)
 
 ;; Update ctags
-(setq rinari-tags-file-name "~/keystone/TAGS")
+;; (setq rinari-tags-file-name "~/keystone/TAGS")
 
 ;; turn on line numbers for ruby
 ;; (add-hook 'ruby-mode-hook
