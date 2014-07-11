@@ -1,28 +1,54 @@
-((("properties" .
+((("regarding" .
+   [1 0 0 0 0 0 0 0 0])
+  ("tools" .
+   [1 0 0 0 0])
+  ("number" .
+   [1 0 0 0 0 0])
+  ("are" .
+   [1 0 0])
+  ("WebAssign" .
+   [1 0 0 0 0 0 0 0 0])
+  ("than" .
+   [1 0 0 0])
+  ("and" .
+   [2 0 0])
+  ("user_id" .
+   [0 0 0 0 1 0 0])
+  ("Username" .
+   [0 0 0 0 0 1 0 0])
+  ("userData" .
+   [0 0 1 0 0 0 0 0])
+  ("var" .
+   [1 0 0])
+  ("query" .
+   [1 0 0 0 0])
+  ("id" .
+   [2 0])
+  ("webassign" .
+   [1 0 0 0 0 0 0 0 0])
+  ("user_query" .
    [1 0 0 0 0 0 0 0 0 0])
-  ("content_length" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("path" .
+  ("fullname" .
+   [1 0 0 0 0 0 0 0])
+  ("name" .
    [1 0 0 0])
   ("owner" .
    [1 0 0 0 0])
-  ("name" .
+  ("path" .
    [1 0 0 0])
-  ("fullname" .
-   [1 0 0 0 0 0 0 0])
-  ("user_query" .
+  ("content_length" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("properties" .
    [1 0 0 0 0 0 0 0 0 0])
-  ("webassign" .
-   [1 0 0 0 0 0 0 0 0])
-  ("id" .
-   [2 0])
-  ("query" .
-   [1 0 0 0 0])
-  ("var" .
-   [1 0 0])
-  ("userData" .
-   [0 0 1 0 0 0 0 0])
-  ("Username" .
-   [0 0 0 0 0 1 0 0])
-  ("user_id" .
-   [0 0 0 0 1 0 0])))
+  ("console" .
+   [3 0 0 0 0 0 0])
+  ("log" .
+   [4 0 0])
+  ("gradeLesson" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("result" .
+   [1 0 0 0 0 0])
+  ("resultData" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("lessonGradingUrl" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])))
