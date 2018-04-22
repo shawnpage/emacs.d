@@ -317,13 +317,13 @@ This command calls the external ."
 
 
 
-(load (expand-file-name "~/quicklisp/slime-helper.el"))
 (setq inferior-lisp-program "/usr/local/bin/sbcl")
-(setq slime-lisp-implementations
-           '((sbcl ("sbcl" "--core" "sbcl.core-for-slime"))))
+(load (expand-file-name "~/quicklisp/slime-helper.el"))
+;(setq slime-lisp-implementations
+;           '((sbcl ("sbcl" "--core" "sbcl.core-for-slime"))))
 
-(require 'slime)
-(slime-setup)
+;(require 'slime)
+;(slime-setup)
 
 ;; ;; swank-js settings
 ;; (global-set-key [f5] 'slime-js-reload)
